@@ -54,7 +54,8 @@ private String getLatestTweet(String searchingFor) {
     Twitter twitter = new TwitterFactory().getInstance();
     AccessToken accessToken = new AccessToken(
             "2453751158-IVD2VGZsvwZiRKxNe3Gs2lMjg30nvSkV1xSuPFf",
-            "vBa5PjKfuMTK1LLBG51nCUI9r5d6Ph5cAHrS73spg6Nvu");
+            
+    		"vBa5PjKfuMTK1LLBG51nCUI9r5d6Ph5cAHrS73spg6Nvu");
     twitter.setOAuthConsumer("YqeZdD2hYxOKv4QOkmp0i2djN",
             "6XUB1r8KXBvd8Pk9HHW3NgphMxHvHWBLAr5TihnckMU0ttyGST");
     twitter.setOAuthAccessToken(accessToken);
