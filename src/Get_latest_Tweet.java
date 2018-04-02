@@ -27,6 +27,7 @@ public static void main(String[] args) {
 		panel=new JPanel();
 		button1=new JButton();
 		button1.setText("TWEETS");
+		button1.addActionListener(this);
 		text=new JTextField(50);
 		frame.add(panel);
 		panel.add(button1);
