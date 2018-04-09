@@ -9,9 +9,10 @@ public class Typing_Tutor {
  JFrame frame;
 JPanel panel;
 JLabel label;
+char letter= generateRandomLetter();
 public static void main(String[] args) {
 	new Typing_Tutor().createUI();
-	 new Typing_Tutor().generateRandomLetter();
+	
 	
 }
 	private void createUI(){
@@ -23,7 +24,7 @@ public static void main(String[] args) {
 	frame.setPreferredSize(new Dimension(1000, 500));
 	label.setFont(label.getFont().deriveFont(28.0f));
 	label.setHorizontalAlignment(label.CENTER); 
-	label.setText(a);
+	label.setText(letter+" ");
 	frame.add(panel);
 	panel.add(label);
 	frame.pack();
