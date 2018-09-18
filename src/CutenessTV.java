@@ -23,7 +23,8 @@ public static void main(String[] args) {
 	 Duck = new JButton();
 	 Frog = new JButton();
 	 unicorn= new JButton();
-	frame.add(panel);	panel.setSize(10000, 50000);
+	frame.add(panel);	
+	panel.setSize(10000, 50000);
 	frame.setSize(500,100);
 	panel.add(unicorn);
 	panel.add(Frog);
