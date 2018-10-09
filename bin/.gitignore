@@ -3,7 +3,6 @@
 /fortune teller.png
 /gridworld.jar
 /jeopardy.wav
-/moo.wav
 /BookOfIllusions.class
 /CowTimer.class
 /CutenessTV.class
@@ -11,9 +10,10 @@
 /FortuneTeller.class
 /Get_latest_Tweet.class
 /Jeopardy.class
+/Mole_Wack.class
 /Movie.class
+/Nasty_surprise.class
 /NetflixQueue.class
 /SimonSays.class
 /Typing_Tutor.class
-/Nasty_surprise.class
-/Mole_Wack.class
+/moo.wav
