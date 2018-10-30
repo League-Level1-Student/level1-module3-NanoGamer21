@@ -1,3 +1,4 @@
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
@@ -17,6 +18,8 @@ JFrame frame;
 JPanel Panel;
 JButton spin;
 JLabel label;
+
+
 public static void main(String[] args) {
 	new Slots().CreateUI();
 }
@@ -25,12 +28,17 @@ private void CreateUI() {
 	JPanel panel= new JPanel();
 	JButton spin=new JButton();
 	JLabel label1= new JLabel();
-	JLabel labell= new JLabel();
-	JLabel labe3
+	JLabel label2= new JLabel();
+	JLabel label3= new JLabel();
 	frame.add(panel);
 	panel.add(spin);
 	panel.add(label1);
-	panel
+	panel.add(label2);
+	panel.add(label3);
+	label1.setIcon(loadImage("Slot_Cherry.png"));
+	//label2.setIcon(loadImage("Lemon.png"));
+	//label3.setIcon(loadImage("luck-seven.png"));
+	
 	spin.setText("SPIN");
 	spin.addActionListener(this);
 	frame.setSize(500, 250);
